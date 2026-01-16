@@ -9,3 +9,52 @@ body {
 .link {
     text-decoration: none;
 }
+
+/*----------Header-----------*/
+
+.header-text {
+    /*font-family: var(--second-family);*/
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #ea543c;
+        background: linear-gradient(133deg, #ea543c 0%, #c5aa24 100%);
+        background-clip: text;
+}
+
+.header-link {
+font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+        text-transform: capitalize;
+        color: black;
+}
+
+/*----------Hero----------*/
+
+.hero-title {
+    font-family: Poppins, sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        text-transform: capitalize;
+        color: black;
+}
+
+.hero-title>span {
+    font-family: Poppins, sans-serif;
+        font-weight: 700;
+}
+
+.hero-btn {
+    border-radius: 12px;
+        padding: 22px 60px 26px;
+        width: 320px;
+        height: 74px;
+        background-color: #ea543c;
+        font-family: Inter, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.3;
+            color: white;
+}
