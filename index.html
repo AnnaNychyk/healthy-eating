@@ -4,80 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy eating</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href=""><img src="./img/logo-leaf.svg" alt="Логотип" width="50.95" height="95"></a>
-            <p>Здорове харчування</p>
-            <ul>
-                <li><a href="">Поради</a></li>
-                <li><a href="">Рецепти</a></li>
-                <li><a href="">Індивідуальний підхід</a></li>
-                <li><a href="">Шаблони</a></li>
-                <li><a href="">Цінності</a></li>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-logo link" href="">
+                <img src="./img/logo-leaf.svg" alt="Логотип" width="50.95" height="95">
+            </a>
+            <p class="header-text">Здорове харчування</p>
+            <ul class="list header-list">
+                <li class="header-item">
+                    <a class="link header-link" href="">Поради</a>
+                </li>
+                <li class="header-item">
+                    <a class="link header-link" href="">Рецепти</a>
+                </li>
+                <li class="header-item">
+                    <a class="link header-link" href="">Індивідуальний підхід</a>
+                </li>
+                <li class="header-item">
+                    <a class="link header-link" href="">Шаблони</a>
+                </li>
+                <li class="header-item">
+                    <a class="link header-link" href="">Цінності</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <ul>
-                <li><h1>Збалансоване & здорове Харчування вдома</h1></li>
-                <li><button type="button">Оформити підписку</button></li>
+            <ul class="hero-list list">
+                <li class="hero-item">
+                    <h1 class="hero-title">Збалансоване & здорове Харчування вдома</h1>
+                </li>
+                <li class="hero-item">
+                    <button class="hero-btn" type="button">Оформити підписку</button>
+                </li>
             </ul>
-            <img src="./img/hero-img.jpg" alt="Кругла тарілка з яйцем" width="716" height="670">
+            <img class="hero-img" src="./img/hero-img.jpg" alt="Кругла тарілка з яйцем" width="716" height="670">
         </section>
 
         <section class="about">
-            <h2>Що таке здорове харчування?</h2>
-            <ul>
-                <li>Різноманітність</li>
-                <li>Регулярне</li>
-                <li>Натуральне</li>
-                <li>Помірність</li>
-                <li>Баланс</li>
-                <li>Смак</li>
+            <h2 class="about-title">Що таке здорове харчування?</h2>
+            <ul class="about-list-first list">
+                <li class="about-item-first">Різноманітність</li>
+                <li class="about-item-first">Регулярне</li>
+                <li class="about-item-first">Натуральне</li>
+                <li class="about-item-first">Помірність</li>
+                <li class="about-item-first">Баланс</li>
+                <li class="about-item-first">Смак</li>
             </ul>
-            <ul>
-                <li>
-                    <h3>Білки</h3>
-                    <ul>
-                        <li>Зростання та регенерація м'язів</li>
-                        <li>Синтез антитіл</li>
-                        <li>Є джерелом амінокислот</li>
-                        <li>Сприяють насиченню</li>
+            <ul class="about-list-second list">
+                <li class="about-item-second">
+                    <h3 class="about-item-title">Білки</h3>
+                    <ul class="about-list-prot">
+                        <li class="about-item-prot">Зростання та регенерація м'язів</li>
+                        <li class="about-item-prot">Синтез антитіл</li>
+                        <li class="about-item-prot">Є джерелом амінокислот</li>
+                        <li class="about-item-prot">Сприяють насиченню</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>Вітаміни</h3>
-                    <ul>
-                        <li>Зміцнюють імунітет</li>
-                        <li>Підтримують засвоєння кальцію</li>
-                        <li>Захищають клітини від вільних радикалів</li>
+                <li class="about-item-second">
+                    <h3 class="about-item-title">Вітаміни</h3>
+                    <ul class="about-list-vitam">
+                        <li class="about-item-vitam">Зміцнюють імунітет</li>
+                        <li class="about-item-vitam">Підтримують засвоєння кальцію</li>
+                        <li class="about-item-vitam">Захищають клітини від вільних радикалів</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>Вуглеводи</h3>
-                    <ul>
-                        <li>Тривала енергія</li>
-                        <li>Нормалізують перистальтику</li>
-                        <li>Допомагають регулювати вагу</li>
-                        <li>Сприяють насиченню</li>
+                <li class="about-item-second">
+                    <h3 class="about-item-title">Вуглеводи</h3>
+                    <ul class="about-list-carboh">
+                        <li class="about-item-carboh">Тривала енергія</li>
+                        <li class="about-item-carboh">Нормалізують перистальтику</li>
+                        <li class="about-item-carboh">Допомагають регулювати вагу</li>
+                        <li class="about-item-carboh">Сприяють насиченню</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>Жири</h3>
-                    <ul>
-                        <li>Зростання клітин та загоєння ран</li>
-                        <li>Покращують всмоктування вітамінів</li>
-                        <li>Є джерелом амінокислот</li>
-                        <li>Знижує запалення, підтримують здоров'я шкіри</li>
+                <li class="about-item-second">
+                    <h3 class="about-item-title">Жири</h3>
+                    <ul class="about-list-fat">
+                        <li class="about-item-fat">Зростання клітин та загоєння ран</li>
+                        <li class="about-item-fat">Покращують всмоктування вітамінів</li>
+                        <li class="about-item-fat">Є джерелом амінокислот</li>
+                        <li class="about-item-fat">Знижує запалення, підтримують здоров'я шкіри</li>
                     </ul>
                 </li>
             </ul>
-            <img src="./img/about-img.jpg" alt="Кругла тарілка з нарізаними овочами" width="950" height="990">
+            <img class="about-img" src="./img/about-img.jpg" alt="Кругла тарілка з нарізаними овочами" width="950" height="990">
         </section>
 
         <section class="subscription">
@@ -85,7 +106,7 @@
             <p>Оформи передплату прямо зараз і відкрий доступ до більш ніж 100 ексклюзивних рецептів, які недоступні на безкоштовному тарифі!</p>
             <p>Відкрий для себе нові уподобання, кулінарні техніки та натхнення для кожного дня.</p>
             <button type="button">Оформити підписку</button>
-            <ul>
+            <ul class="list">
                 <li><img src="./img/sub-img1.jpg" alt="" width="186" height="200"></li>
                 <li><img src="./img/sub-img2.jpg" alt="" width="186" height="255"></li>
                 <li><img src="./img/sub-img3.jpg" alt="" width="186" height="87"></li>
@@ -99,7 +120,7 @@
         </section>
 
         <section class="tips">
-            <ul>
+            <ul class="list">
                 <li><img src="./img/tips-img1.png" alt="" width="495" height="570"></li>
                 <li><img src="./img/tips-img2.png" alt="" width="289" height="236"></li>
                 <li><img src="./img/tips-img3.png" alt="" width="186" height="236"></li>
@@ -107,7 +128,7 @@
             <h2>Прості поради для старту</h2>
             <p>Почати шлях до здорового харчування можна з найпростіших кроків. Намагайтеся замінити солодкі напої чистою водою і додати в раціон більше овочів та фруктів. їжте повільніше і прислухайтеся до почуття насичення - це допомагає уникнути переїдання.</p>
             <p>Плануйте прийоми їжі заздалегідь, щоб рідше вдаватися до фастфуду. Намагайтеся готувати вдома - так ви точно знатимете, що саме їсте. Головне — рухатися поступово і не прагнути ідеалу відразу.</p>
-            <ul>
+            <ul class="list">
                 <li>Плануйте прийоми їжі заздалегідь</li>
                 <li>Пийте достатньо води</li>
                 <li>Дотримуйтесь режиму харчування</li>
@@ -122,7 +143,7 @@
 
         <section class="recipes">
             <h2>Смачні та корисні рецепти на коден день</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Сніданки</h3>
                     <button type="button">Стрілочка</button>
@@ -144,7 +165,7 @@
 
         <section class="coach-support">
             <h2>Індивідуальний підхід: Онлайн-підтримка тренера</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Підтримка спільноти однодумців</h3>
                     <p>Ви стаєте частиною закритого клубу, де кожен поділяє ваші цілі. Спілкуйтесь, діліться успіхами, отримуйте поради та
@@ -192,7 +213,7 @@
                     <button type="button">Стрілочка</button>
                 </label>
             </form>
-            <ul>
+            <ul class="list">
                 <li>Здоров'я</li>
                 <li>Сила</li>
                 <li>План</li>
@@ -204,11 +225,11 @@
         </section>
 
         <section class="tariffs">
-            <ul>
+            <ul class="list">
                 <li>
                     <h2>Базовий</h2>
                     <p>1299 грн</p>
-                    <ul>
+                    <ul class="list">
                         <li>Персональне тижневе меню</li>
                         <li>Списки покупок на кожен день</li>
                         <li>Підтримка по e-mail</li>
@@ -225,7 +246,7 @@
                     <h2>Преміум</h2>
                     <p>2449 грн</p>
                     <p>3449 грн</p>
-                    <ul>
+                    <ul class="list">
                         <li>Персональне тижневе меню</li>
                         <li>Списки покупок на кожен день</li>
                         <li>Підтримка по e-mail</li>
@@ -241,7 +262,7 @@
                 <li>
                     <h2>Оптимальний</h2>
                     <p>1999 грн</p>
-                    <ul>
+                    <ul class="list">
                         <li>Персональне тижневе меню</li>
                         <li>Списки покупок на кожен день</li>
                         <li>Підтримка по e-mail</li>
@@ -258,16 +279,16 @@
         </section>
     </main>
     <footer>
-        <a href=""><img src="./img/logo-leaf.svg" alt="Логотип" width="50.95" height="95"></a>
+        <a class="link" href=""><img src="./img/logo-leaf.svg" alt="Логотип" width="50.95" height="95"></a>
         <p>Здорове харчування</p>
         <p>&copy 2024 — tea room</p>
         <p>Privacy Policy</p>
-        <ul>
-            <li><a href="">Поради</a></li>
-            <li><a href="">Рецепти</a></li>
-            <li><a href="">Індивідуальний підхід</a></li>
-            <li><a href="">Шаблони</a></li>
-            <li><a href="">Цінності</a></li>
+        <ul class="list">
+            <li><a class="link" href="">Поради</a></li>
+            <li><a class="link" href="">Рецепти</a></li>
+            <li><a class="link" href="">Індивідуальний підхід</a></li>
+            <li><a class="link" href="">Шаблони</a></li>
+            <li><a class="link" href="">Цінності</a></li>
         </ul>
     </footer>
 </body>
